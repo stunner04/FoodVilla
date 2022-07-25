@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/search_bar"
+    android:padding="4dp"
+    tools:context=".fragment.FavouriteRestaurantFragment">
+
+
+    <ImageView
+        android:id="@+id/img_fav_bg_illus"
+        android:layout_width="385dp"
+        android:layout_height="385dp"
+        android:visibility="invisible"
+        android:padding="8dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="140dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/fav_bg_illustration"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/tv_nothing_added"
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_fav_bg_illus"
+        android:layout_centerInParent="true"
+        android:drawablePadding="6dp"
+        android:elevation="10dp"
+        android:padding="4dp"
+        android:text="Add Your Favourites"
+        android:textAlignment="center"
+        android:textColor="@color/txt_head"
+        android:textSize="20sp"
+        android:drawableRight="@drawable/ic_fav_outline"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/add_fav_frag_img"
+        android:layout_width="80dp"
+        android:visibility="invisible"
+
+        android:layout_below="@+id/tv_nothing_added"
+        android:layout_height="80dp"
+        android:elevation="10dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/add_fav_frag_img_foreground"
+        android:scaleType="centerCrop"
+        />
+
+    <RelativeLayout
+        android:id="@+id/favoriteProgressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="1dp"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFavoriteRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SpalshScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/splash_bg</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/order_bg</item>
+        <item name="android:textColor">@color/txt_head</item>
+        <item name="dialogCornerRadius">10dp</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:titleTextStyle">@android:attr/titleTextStyle</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+    </style>
+</resources>

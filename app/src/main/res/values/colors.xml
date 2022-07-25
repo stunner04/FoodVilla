@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#26A69A</color>
+    <color name="colorPrimaryDark">#006064</color>
+    <color name="colorAccent">#12A18E</color>
+    <color name="white">#ffffff</color>
+    <color name="search_bar">#DCFEF6</color>
+    <color name="cost_for_one">#00BFA5</color>
+    <color name="black">#000000</color>
+
+    <color name="dash_rv_bg">#E0F7FA</color>
+    <color name="txt_head">#006064</color>
+    <color name="txt_rating">#02CAB0</color>
+    <color name="splash_bg">#98FFF7</color>
+    <color name="text_color">#057C81</color>
+    <color name="text_bg">#A7FFEB</color>
+    <color name="order_bg">#E5F4F6</color>
+    <color name="profile_bg">#D95AC9BE</color>
+</resources>
