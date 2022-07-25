@@ -1,6 +1,5 @@
 # FoodVilla
 
-Food Ordering app "FoodVilla" :)
-
+Food Ordering app "FoodVilla"  by YashvermA :)
 
 
